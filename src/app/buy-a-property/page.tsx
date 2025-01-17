@@ -2,6 +2,9 @@ import MainNavBar from "../_components/MainNavBar";
 import Footer from "../_components/Footer";
 import BuyProperty from "./_components/BuyProperpty";
 import ProperptyDetails from "./_components/PropertyDetails";
+import Silder1 from "./_components/Silder1";
+import Silder2 from "./_components/Silder2";
+import Silder3 from "./_components/Silder3";
 export default function Buy() {
   return (
     <>
@@ -90,6 +93,7 @@ export default function Buy() {
         </div>
       </div>
       <div className="my-[30px] px-[20px] md:px-[50px] lg:px-[86px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full justify-between">
+        <div className="mt-[30px] rounded-[10px] static z-0 h-auto"   style={{ boxShadow: "0px 0px 4px 0px #00000040" }}><Silder1/>
         <ProperptyDetails
           type="House"
           price="PKR 90 lac"
@@ -99,15 +103,20 @@ export default function Buy() {
           location="Johar Town, Lahore"
           addtime="Added 2 hours ago"
         />
+        </div>
+        <div className="mt-[30px] rounded-[10px] static z-0 h-auto"   style={{ boxShadow: "0px 0px 4px 0px #00000040" }}><Silder2/>
         <ProperptyDetails
+        
           type="House"
           price="Pkr 1 crore"
           bed="3"
           bath="3"
           marala="5 Marla"
           location="Johar Town, Lahore"
-          addtime="Added 2 hours ago"
+          addtime="Added 2 hours ago"          
         />
+        </div>
+        <div className="mt-[30px] rounded-[10px] static z-0 h-auto"   style={{ boxShadow: "0px 0px 4px 0px #00000040" }}><Silder3/>
         <ProperptyDetails
           type="House"
           price="Pkr 2 crore"
@@ -116,7 +125,10 @@ export default function Buy() {
           marala="10 Marla"
           location="Bahria Town, Lahore"
           addtime="Added 2 hours ago"
+          
         />
+        </div>
+        <div className="mt-[30px] rounded-[10px] static z-0 h-auto"   style={{ boxShadow: "0px 0px 4px 0px #00000040" }}><Silder1/>
         <ProperptyDetails
           type="House"
           price="PKR 60 lac"
@@ -125,7 +137,10 @@ export default function Buy() {
           marala="3 Marla"
           location="Alfalah Town, Lahore"
           addtime="Added 2 hours ago"
+          
         />
+        </div>
+        <div className="mt-[30px] rounded-[10px] static z-0 h-auto"   style={{ boxShadow: "0px 0px 4px 0px #00000040" }}><Silder1/>
         <ProperptyDetails
           type="House"
           price="Pkr 3 crore"
@@ -134,7 +149,10 @@ export default function Buy() {
           marala="4 Marla"
           location="Johar Town, Lahore"
           addtime="Added 2 hours ago"
+        
         />
+        </div>
+        <div className="mt-[30px] rounded-[10px] static z-0 h-auto"   style={{ boxShadow: "0px 0px 4px 0px #00000040" }}><Silder1/>
         <ProperptyDetails
           type="House"
           price="PKR 50 Lac"
@@ -144,6 +162,7 @@ export default function Buy() {
           location="Bahria Town, Lahore"
           addtime="Added 2 hours ago"
         />
+        </div>
       </div>
       <Footer />
     </>
