@@ -5,6 +5,9 @@ import ProperptyDetails from "./_components/PropertyDetails";
 import Silder1 from "./_components/Silder1";
 import Silder2 from "./_components/Silder2";
 import Silder3 from "./_components/Silder3";
+import Silder4 from "./_components/Silder4";
+import Silder5 from "./_components/Silder5";
+import Silder6 from "./_components/Silder6";
 export default function Buy() {
   return (
     <>
@@ -80,7 +83,7 @@ export default function Buy() {
             isSpecial="text-gray-700"
           />
         </div>
-        <div className="flex-shrink-0 align-top"> 
+        <div className="flex-shrink-0 align-top">
           <BuyProperty
             btntext="New Listings"
             btnimg="/arrow-down.png"
@@ -93,75 +96,95 @@ export default function Buy() {
         </div>
       </div>
       <div className="my-[30px] px-[20px] md:px-[50px] lg:px-[86px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full justify-between">
-        <div className="mt-[30px] rounded-[10px] static z-0 h-auto"   style={{ boxShadow: "0px 0px 4px 0px #00000040" }}><Silder1/>
-        <ProperptyDetails
-          type="House"
-          price="PKR 90 lac"
-          bed="3"
-          bath="3"
-          marala="3 Marla"
-          location="Johar Town, Lahore"
-          addtime="Added 2 hours ago"
-        />
+        <div
+          className="mt-[30px] rounded-[10px] static z-0 h-auto"
+          style={{ boxShadow: "0px 0px 4px 0px #00000040" }}
+        >
+          <Silder1 />
+          <ProperptyDetails
+            type="House"
+            price="PKR 90 lac"
+            bed="3"
+            bath="3"
+            marala="3 Marla"
+            location="Johar Town, Lahore"
+            addtime="Added 2 hours ago"
+          />
         </div>
-        <div className="mt-[30px] rounded-[10px] static z-0 h-auto"   style={{ boxShadow: "0px 0px 4px 0px #00000040" }}><Silder2/>
-        <ProperptyDetails
-        
-          type="House"
-          price="Pkr 1 crore"
-          bed="3"
-          bath="3"
-          marala="5 Marla"
-          location="Johar Town, Lahore"
-          addtime="Added 2 hours ago"          
-        />
+        <div
+          className="mt-[30px] rounded-[10px] static z-0 h-auto"
+          style={{ boxShadow: "0px 0px 4px 0px #00000040" }}
+        >
+          <Silder2 />
+          <ProperptyDetails
+            type="House"
+            price="Pkr 1 crore"
+            bed="3"
+            bath="3"
+            marala="5 Marla"
+            location="Johar Town, Lahore"
+            addtime="Added 2 hours ago"
+          />
         </div>
-        <div className="mt-[30px] rounded-[10px] static z-0 h-auto"   style={{ boxShadow: "0px 0px 4px 0px #00000040" }}><Silder3/>
-        <ProperptyDetails
-          type="House"
-          price="Pkr 2 crore"
-          bed="9"
-          bath="8"
-          marala="10 Marla"
-          location="Bahria Town, Lahore"
-          addtime="Added 2 hours ago"
-          
-        />
+        <div
+          className="mt-[30px] rounded-[10px] static z-0 h-auto"
+          style={{ boxShadow: "0px 0px 4px 0px #00000040" }}
+        >
+          <Silder3 />
+          <ProperptyDetails
+            type="House"
+            price="Pkr 2 crore"
+            bed="9"
+            bath="8"
+            marala="10 Marla"
+            location="Bahria Town, Lahore"
+            addtime="Added 2 hours ago"
+          />
         </div>
-        <div className="mt-[30px] rounded-[10px] static z-0 h-auto"   style={{ boxShadow: "0px 0px 4px 0px #00000040" }}><Silder1/>
-        <ProperptyDetails
-          type="House"
-          price="PKR 60 lac"
-          bed="3"
-          bath="3"
-          marala="3 Marla"
-          location="Alfalah Town, Lahore"
-          addtime="Added 2 hours ago"
-          
-        />
+        <div
+          className="mt-[30px] rounded-[10px] static z-0 h-auto"
+          style={{ boxShadow: "0px 0px 4px 0px #00000040" }}
+        >
+          <Silder4 />
+          <ProperptyDetails
+            type="House"
+            price="PKR 60 lac"
+            bed="3"
+            bath="3"
+            marala="3 Marla"
+            location="Alfalah Town, Lahore"
+            addtime="Added 2 hours ago"
+          />
         </div>
-        <div className="mt-[30px] rounded-[10px] static z-0 h-auto"   style={{ boxShadow: "0px 0px 4px 0px #00000040" }}><Silder1/>
-        <ProperptyDetails
-          type="House"
-          price="Pkr 3 crore"
-          bed="4"
-          bath="4"
-          marala="4 Marla"
-          location="Johar Town, Lahore"
-          addtime="Added 2 hours ago"
-        
-        />
+        <div
+          className="mt-[30px] rounded-[10px] static z-0 h-auto"
+          style={{ boxShadow: "0px 0px 4px 0px #00000040" }}
+        >
+          <Silder5 />
+          <ProperptyDetails
+            type="House"
+            price="Pkr 3 crore"
+            bed="4"
+            bath="4"
+            marala="4 Marla"
+            location="Johar Town, Lahore"
+            addtime="Added 2 hours ago"
+          />
         </div>
-        <div className="mt-[30px] rounded-[10px] static z-0 h-auto"   style={{ boxShadow: "0px 0px 4px 0px #00000040" }}><Silder1/>
-        <ProperptyDetails
-          type="House"
-          price="PKR 50 Lac"
-          bed="9"
-          bath="9"
-          marala="10 Marla"
-          location="Bahria Town, Lahore"
-          addtime="Added 2 hours ago"
-        />
+        <div
+          className="mt-[30px] rounded-[10px] static z-0 h-auto"
+          style={{ boxShadow: "0px 0px 4px 0px #00000040" }}
+        >
+          <Silder6 />
+          <ProperptyDetails
+            type="House"
+            price="PKR 50 Lac"
+            bed="9"
+            bath="9"
+            marala="10 Marla"
+            location="Bahria Town, Lahore"
+            addtime="Added 2 hours ago"
+          />
         </div>
       </div>
       <Footer />

@@ -8,7 +8,6 @@ import PropertyExpert from "./_components/PropertyExpert";
 import PropertyCarousel from "./_components/Properties"
 import Testimonial from "./_components/Testimoninal";
 export default function Home() {
-
   return (
     <>
       <HeroSection />

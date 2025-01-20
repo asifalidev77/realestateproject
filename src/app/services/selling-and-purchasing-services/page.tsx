@@ -1,5 +1,6 @@
 import MainNavBar from "../../_components/MainNavBar";
 import Footer from "../../_components/Footer";
+import Link from "next/link";
 export default function blogPage() {
   return (
     <>
@@ -28,20 +29,24 @@ export default function blogPage() {
             <p className="text-[#000] text-[17px] font-normal leading-[20px]">
               Discover your dream home where perfection and happiness intersect.
             </p>
-            <button className="p-[8px] border-[1px] rounded-[5.31px] text-[#000] border-[#000] font-normal leading-[14.45px] text-[11.94px]  w-[125px] m-auto">Browse Properties
-            </button>
+            <button className="p-[8px] border-[1px] rounded-[5.31px] text-[#000] border-[#000] font-normal leading-[14.45px] text-[11.94px]  w-[125px] m-auto"> <Link href="/buy-a-property"> Browse Properties </Link>
+            </button> 
           </div>
           <div className="px:[16px] md:px-[36px] py:[30px] md:py-[60px] flex flex-col gap-[20px] justify-center align-middle bg-white rounded-[18px] text-center h-[50vh]">
             <img src="/sale.png" alt="" className="w-[196px] h-[197px] m-auto" />
             <h3 className="text-[#000]  font-semibold leading-[1.2em] text-[22px] lg:text-[25px] xl:text-[29px]">Sell a property</h3>
             <p className="text-[#000] text-[17px] font-normal leading-[20px]">Invest smart, win big, irrespective of economic shifts.</p>
-            <button className="p-[8px] border-[1px] rounded-[5.31px] text-[#000] border-[#000] font-normal leading-[14.45px] text-[11.94px] w-[104px] m-auto">Add Details</button>
+            <button className="p-[8px] border-[1px] rounded-[5.31px] text-[#000] border-[#000] font-normal leading-[14.45px] text-[11.94px] w-[104px] m-auto">
+            <Link href="/buy-a-property">  Add Details </Link>
+             </button>
           </div>
           <div className="px:[16px] md:px-[36px] py:[30px] md:py-[60px] flex flex-col gap-[20px] justify-center align-middle bg-white rounded-[18px] text-center h-[50vh]">
             <img src="/house.png" alt="" className="w-[196px] h-[197px] m-auto" />
             <h3 className="text-[#000] text-[22px] lg:text-[25px] xl:text-[29px] font-semibold leading-[1.2em]">Rent a property</h3>
             <p className="text-[#000] text-[17px] font-normal leading-[20px]">Discover a home where love fills every room</p>
-            <button className="p-[8px] border-[1px] rounded-[5.31px] text-[#000] border-[#000] font-normal leading-[14.45px] text-[11.94px]  w-[104px] m-auto">Find Rentals</button>
+            <button className="p-[8px] border-[1px] rounded-[5.31px] text-[#000] border-[#000] font-normal leading-[14.45px] text-[11.94px]  w-[104px] m-auto">
+            <Link href="/buy-a-property">  Find Rentals </Link>
+              </button>
           </div>
         </div>
         </div>

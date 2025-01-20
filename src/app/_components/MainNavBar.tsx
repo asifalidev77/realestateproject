@@ -80,7 +80,7 @@ export default function MainNavBar() {
                     onClick={dropDown}
                     ref={dropdownRef}
                   >
-                    <Link href="#">Services</Link>{" "}
+                    Services{" "}
                     <Image
                       className="inline-block"
                       src={servicearrow}
