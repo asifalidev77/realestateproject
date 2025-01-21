@@ -21,10 +21,10 @@ export default function buyProperpty({
 }: PropertyProps) {
   
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-   const dropdownRef = useRef(null);
+  const dropdownRef = useRef<HTMLDivElement>(null); // Explicitly typing the ref
   const dropDown = () => setIsDropdownOpen(!isDropdownOpen);
-  const handleClickOutside = (event) => {
-    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+  const handleClickOutside = (event: MouseEvent) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
       setIsDropdownOpen(false);
     }
   };

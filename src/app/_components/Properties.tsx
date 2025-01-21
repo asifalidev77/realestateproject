@@ -1,12 +1,15 @@
 "use client";
 import React from "react";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { title } from "process";
 import dynamic from "next/dynamic";
+import { FC } from 'react';
+
+interface ArrowProps {
+  onClick?: () => void;
+}
 export default function Properties() {
-  const CustomPrevArrow = ({ onClick }) => (
+  const CustomPrevArrow: FC<ArrowProps> = ({ onClick }) => (
     <button
       onClick={onClick}
       className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white text-[#FF9D00] p-2 rounded-full hover:bg-black"
@@ -14,8 +17,7 @@ export default function Properties() {
       ←
     </button>
   );
-
-  const CustomNextArrow = ({ onClick }) => (
+  const CustomNextArrow: FC<ArrowProps> = ({ onClick }) => (
     <button
       onClick={onClick}
       className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white text-[#FF9D00] p-2 rounded-full hover:bg-black"

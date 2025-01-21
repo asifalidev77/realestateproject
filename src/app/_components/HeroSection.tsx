@@ -25,7 +25,7 @@ export default function HeroSection() {
       src={heroimage}
       alt="Description"
       layout="fill"
-      className= "md:absolute  end-0 self-end"
+      className= "md:absolute   right-0 bottom-0"
     />
           </div>
         </div>
