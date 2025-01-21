@@ -1,5 +1,6 @@
 import MainNavBar from "../../../_components/MainNavBar";
 import Footer from "../../../_components/Footer";
+import Link from "next/link";
 export default function residentialConstruction() {
   return (
     <>
@@ -12,7 +13,9 @@ export default function residentialConstruction() {
         <h1 className="md:font-bold lg:text-[61px] md:text-[37px] lg:leading-[74px] md:leading-[60px] font-medium text-[32px] leading-[32px]">Residential Construction</h1>
         <p className="md:font-medium lg:text-[28px] md:text-[22px] text-center leading-[24px] lg:leading-[36px] m-auto w-[85%]">Get Design-Build Services for all types of Residential Buildings at Affordable in Pakistan</p>
         <div>
-        <button className="lg:text-lg lg:font-bold md:text-x border md:font-medium border-white rounded-lg p-[12px] relative hover:text-[#FF9D00]">Contact Us</button> </div>
+        <button className="lg:text-lg lg:font-bold md:text-x border md:font-medium border-white rounded-lg p-[12px] relative hover:text-[#FF9D00]">
+          
+        <Link href="/contact-us">Contact Us </Link></button> </div>
         </div>
       </div>
       </div>
