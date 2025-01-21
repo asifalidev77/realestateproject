@@ -10,7 +10,7 @@ export default function blogDetails() {
       <div className="px-[15px] md:[35px] lg:px-[70px]">
       <h1 className="font-bold text-[30px] md:text-[35px] lg:text-[39px] leading-[1.3em]  text-black  ">Unlocking the Secrets to Finding Your Dream Home: Expert Tips and Insights</h1>
       <p className="text-[20px] leading-[30px] my-[30px]">
-      The journey to finding your dream home can be both exhilarating and overwhelming. Whether you're a first-time buyer or looking to upgrade, the real estate market presents numerous opportunities and challenges. To help you navigate this complex landscape, we've compiled expert tips and insights that will empower you to make informed decisions and turn your dream into reality. <br />
+      The journey to finding your dream home can be both exhilarating and overwhelming. Whether youre a first-time buyer or looking to upgrade, the real estate market presents numerous opportunities and challenges. To help you navigate this complex landscape, we have compiled expert tips and insights that will empower you to make informed decisions and turn your dream into reality. <br />
 1. Define Your Priorities <br />
 Before diving into property listings, take time to outline your priorities. Ask yourself essential questions:
 What is your budget?

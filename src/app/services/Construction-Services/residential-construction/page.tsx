@@ -30,7 +30,7 @@ export default function residentialConstruction() {
             <h3 className="font-semibold lg:text-[27px] text-center text-2xl leading-7">
             Renovations and Additions
             </h3>
-            <p className="lg:font-medium lg:text-[16px] text-center md:text-xs ms:font-medium">Whether you're looking to update an existing space or add new features to your home, we provide comprehensive renovation and addition services. Our skilled craftsmen ensure that all changes blend seamlessly with your current home design.</p>
+            <p className="lg:font-medium lg:text-[16px] text-center md:text-xs ms:font-medium">Whether youre looking to update an existing space or add new features to your home, we provide comprehensive renovation and addition services. Our skilled craftsmen ensure that all changes blend seamlessly with your current home design.</p>
         </div>
         <div className="flex flex-col items-center gap-6  m-auto pt-[35px] pb-[35px] bg-white text-center rounded-[17px] py-[53px] px-[35px]">
             <img src="/three-home-icon.svg" alt="" />
