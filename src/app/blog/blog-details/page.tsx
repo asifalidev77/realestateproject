@@ -28,7 +28,7 @@ A knowledgeable and experienced real estate agent can be your greatest ally. The
 Seeing properties in person provides a better sense of their value and potential. Attend open houses and schedule private showings to explore different options. Take notes and pictures, and compare them later to narrow down your choices. <br />
 6. Consider the Future  <br />
 Think long-term when choosing your home. Consider how your life might change in the coming years. Will you need more space for a growing family? Is the neighborhood likely to appreciate in value? Ensuring your home meets your future needs will save you from the hassle of moving again soon.<br />
-7. Don’t Skip the Inspection <br />
+7. Do not Skip the Inspection <br />
 A thorough home inspection is a non-negotiable step. It can reveal potential issues that might not be visible at first glance, such as structural problems, outdated systems, or pest infestations. Use the inspection report to negotiate repairs or price adjustments with the seller.<br />
 8. Trust Your Instincts <br />
 Finally, trust your instincts. While data and expert advice are critical, your feelings about a home are equally important. If a property feels right and meets your criteria, it might be the perfect fit for you and your family. <br />

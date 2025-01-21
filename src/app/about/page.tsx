@@ -15,8 +15,7 @@ export default function About() {
           </h1>
           <h3 className="text-[#909090] text-[25px] font-medium">Who We Are?</h3>
           <p className="font-normal text-[23px] leading-[28px] pr-[20px]">
-          Titanium Agency & Homes is a premium real estate consultant and marketing professionals platform where we sell and market properties. We are a team of hard-working and dedicated individuals who are constantly aiming to bring the best opportunities and deals for our members.
- <br />
+          Titanium Agency & Homes is a premium real estate consultant and marketing professionals platform where we sell and market properties. We are a team of hard-working and dedicated individuals who are constantly aiming to bring the best opportunities and deals for our members.<br />
 We bring the best offers and news from the top projects for you to keep up with all the good things happening around so you stay ahead of everyone else. So, if a great opportunity arises we will make sure you will be the first ones to get benefits from that.
           </p>
           <Link href="/contact-us"> 
