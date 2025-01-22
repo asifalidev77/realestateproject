@@ -18,7 +18,7 @@ return (
 <div className="flex flex-row justify-between w-[100%] h-auto align-middle px-[20px] md:px-[50px] lg:px-[86px]">
     <div className="w-[70%]">
     <div> <h3 className="text-[#2d2d2d] text-[40px] leading-[1.1em] font-semibold">3 Marla House for Sale in Alfalah Town, Lahore </h3></div>
-    <div className="">
+    <div className="flex flex-col gap-5 my-[20px]">
     <h3 className="text-[30px] leading-[1.1em] font-semibold text-[#2d2d2d]">pkr 2 Crore</h3>
     <h5>Added 2 hours ago</h5>
     <hr />
