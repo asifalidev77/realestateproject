@@ -38,17 +38,6 @@ return (
         <div className="text-end mt-[5px]"><h6 className="font-semibold text-[20px] text-[#4E4E4E]">House</h6></div>
     </div>
 </div>
-<div className="">
-    <h3 className="text-[30px] leading-[1.1em] font-semibold text-[#2d2d2d]">pkr 2 Crore</h3>
-    <h5>Added 2 hours ago</h5>
-    <hr />
-    <h3 className="text-[30px] leading-[1.1em] font-medium text-[#2d2d2d]">Description</h3>
-    <p className="text-[20px] leading-[30px]"> AOA we have a kanal house in Alfalah P Block in good condition with 5 bed 6 back dual tv lounge dual drawing room dual kitchen storage londerry gerage. For More Info Contact At Call</p>
-    <h3 className="text-[30px] leading-[1.1em] font-medium text-[#2d2d2d]">Condition</h3>
-    <p className="text-[20px] leading-[30px]">Good - in a good shape, needs cosmetic updates</p>
-    <hr />
-
-</div>
 <Footer />
 </>
 );
