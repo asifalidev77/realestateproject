@@ -16,8 +16,6 @@ const PropertyDetails: React.FC<PropertyDetailsProps> = ({
   location,
   addtime,
 }) => (
-
-
     <div className="mx-[17px]">
         <div className="flex justify-between mt-[20px]">
         <div><h3 className="text-[27px] text-[#2D2D2D] font-semibold">{price}</h3></div>
